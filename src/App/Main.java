@@ -3,6 +3,10 @@ import Model.Empleado;
 import Model.Persona;
 import Model.Rut;
 
+/**
+ * Imprime una dirección en consola
+ * @param direccion Dirección a imprimir
+ */
 void ImprimirDireccion(Direccion direccion) {
     System.out.println("Direccion: ");
     System.out.println("\tComuna: " + direccion.getComuna());
@@ -11,6 +15,10 @@ void ImprimirDireccion(Direccion direccion) {
     System.out.println("\tNumero: " + direccion.getNumero());
 }
 
+/**
+ * Imprime una persona en consola
+ * @param persona Persona a imprimir
+ */
 void ImprimirPersona(Persona persona) {
     System.out.println("Persona: ");
     System.out.println("\tNombre: " + persona.getNombre());
@@ -19,6 +27,10 @@ void ImprimirPersona(Persona persona) {
     ImprimirDireccion(persona.getDireccion());
 }
 
+/**
+ * Imprime un empleado en consola
+ * @param empleado Empleado a imprimir
+ */
 void ImprimirEmpleado(Empleado empleado) {
     System.out.println("Empleado: ");
     System.out.println("\tSalario: " + empleado.getSalario());
