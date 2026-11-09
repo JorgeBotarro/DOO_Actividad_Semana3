@@ -16,3 +16,5 @@ Implementación de la App Llanquihue Tour.
 ## Instrucciones de uso
 Este proyecto fue realizado en IntelliJ IDEA, pero puede ser ejecutado en cualquier IDE de Java.
 basta con abrir la carpeta base en el IDE y ejecutar la clase Main.java
+
+[Video de explicación del código](https://youtu.be/3h69_dBfsSc)
